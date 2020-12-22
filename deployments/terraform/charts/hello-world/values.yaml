@@ -27,13 +27,13 @@ ingress:
     cert-manager.io/cluster-issuer: letsencrypt-prod
     # kubernetes.io/tls-acme: "true"
   hosts:
-  - host: hello.fuchicorp.com
+  - host: hello.hyavuz.com
     paths:
     - /
   tls:
   - secretName: hello-world-tls
     hosts:
-    - hello.fuchicorp.com
+    - hello.hyavuz.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
